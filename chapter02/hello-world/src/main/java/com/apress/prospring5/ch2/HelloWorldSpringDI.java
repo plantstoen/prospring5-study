@@ -4,6 +4,7 @@ import com.apress.prospring5.ch2.decoupled.MessageRenderer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+// DI기법으로 구현된 main Method
 public class HelloWorldSpringDI {
     public static void main(String... args) {
         ApplicationContext ctx = new ClassPathXmlApplicationContext
