@@ -1,9 +1,11 @@
 package com.apress.prospring5.ch2.decoupled;
 
+// MessageRenderer Interface 구현 클래스
 public class StandardOutMessageRenderer implements MessageRenderer {
 
     private MessageProvider messageProvider;
 
+    // 생성자
     public StandardOutMessageRenderer(){
         System.out.println(" --> StandardOutMessageRenderer: 생성자가 호출됨");
     }
